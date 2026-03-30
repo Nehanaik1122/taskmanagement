@@ -16,6 +16,7 @@ const statusColors: Record<TaskStatus, string> = {
   todo: 'bg-gray-100 text-gray-800',
   'in-progress': 'bg-blue-100 text-blue-800',
   completed: 'bg-green-100 text-green-800',
+  pending: 'bg-yellow-100 text-yellow-800',
 };
 
 export function TaskCard({ task }: TaskCardProps) {
