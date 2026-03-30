@@ -27,6 +27,7 @@ export function TaskFilters({ onFilterChange, onSearchChange, onSortChange }: Ta
           <SelectItem value="todo">To Do</SelectItem>
           <SelectItem value="in-progress">In Progress</SelectItem>
           <SelectItem value="completed">Completed</SelectItem>
+          <SelectItem value="pending">Pending</SelectItem>
         </SelectContent>
       </Select>
       <Select onValueChange={onSortChange}>
